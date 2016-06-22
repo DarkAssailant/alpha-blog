@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root 'pages#home'
   get 'about', to:'pages#about'
+  resources :articles #give post new article pat, edit path, update, delete, show and index 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
